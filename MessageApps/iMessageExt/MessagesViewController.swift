@@ -12,12 +12,21 @@ import Messages
 class MessagesViewController: MSMessagesAppViewController {
     
     @IBOutlet weak var labelText: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
     @IBAction func btnSubmit(_ sender: Any) {
+//        labelText.text = "Hello World"
+//        let layout = MSMessageTemplateLayout()
+//        layout.caption = "Hello World"
+//        layout.image = UIImage(named: "logo-bango.png")
+//        let message = MSMessage()
+//        message.layout = layout
+//        activeConversation?.insert(message, completionHandler: nil)
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
